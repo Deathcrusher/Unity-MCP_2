@@ -15,4 +15,16 @@ The following tasks are derived from the TODO / Planned list in the documentatio
 - [x] Scriptable Object: Read
 - [x] Scriptable Object: Modify
 - [x] Scriptable Object: Remove
+- [ ] Run Tests
+- [ ] Prefabs: Create
+- [ ] Package: Get installed
+- [ ] Package: Install
+- [ ] Package: Remove
+- [ ] Package: Update
+- [ ] Scene: Search (editor)
+- [ ] Scene: Raycast (understand volume)
+- [ ] Scriptable Object: Create
+- [ ] Scriptable Object: Read
+- [ ] Scriptable Object: Modify
+- [ ] Scriptable Object: Remove
 - [x] Debug: Read logs (console)
