@@ -42,7 +42,7 @@ The system is extensible: you can define custom `tool`s directly in your Unity p
 - - ✅ `Property` set value
 - - ✅ `Reference` link set
 - ✅ Destroy Component
-- 🔲 Remove missing components
+- ✅ Remove missing components
 
 ### Editor
 
