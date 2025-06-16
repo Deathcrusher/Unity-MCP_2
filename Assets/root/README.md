@@ -59,7 +59,7 @@ The system is extensible: you can define custom `tool`s directly in your Unity p
   - ✅ Add
   - ✅ Remove
 - ✅ Execute `MenuItem`
-- 🔲 Run Tests
+ - ✅ Run Tests
 
 #### Editor.Selection
 
@@ -69,7 +69,7 @@ The system is extensible: you can define custom `tool`s directly in your Unity p
 ### Prefabs
 
 - ✅ Instantiate
-- 🔲 Create
+- ✅ Create
 - ✅ Open
 - ✅ Modify (GameObject.Modify)
 - ✅ Save
@@ -77,10 +77,10 @@ The system is extensible: you can define custom `tool`s directly in your Unity p
 
 ### Package
 
-- 🔲 Get installed
-- 🔲 Install
-- 🔲 Remove
-- 🔲 Update
+- ✅ Get installed
+- ✅ Install
+- ✅ Remove
+- ✅ Update
 
 </td>
 <td valign="top">
@@ -105,8 +105,8 @@ The system is extensible: you can define custom `tool`s directly in your Unity p
 - ✅ Unload
 - ✅ Get Loaded
 - ✅ Get hierarchy
-- 🔲 Search (editor)
-- 🔲 Raycast (understand volume)
+- ✅ Search (editor)
+- ✅ Raycast (understand volume)
 
 ### Materials
 
@@ -127,10 +127,10 @@ The system is extensible: you can define custom `tool`s directly in your Unity p
 
 ### Scriptable Object
 
-- 🔲 Create
-- 🔲 Read
-- 🔲 Modify
-- 🔲 Remove
+- ✅ Create
+- ✅ Read
+- ✅ Modify
+- ✅ Remove
 
 ### Debug
 
