@@ -26,7 +26,7 @@ namespace com.IvanMurzak.Unity.MCP.Editor.API
 
             int removed = 0;
 
-            void Process(GameObject target)
+            void Process(UnityEngine.GameObject target)
             {
                 removed += GameObjectUtility.RemoveMonoBehavioursWithMissingScript(target);
             }
