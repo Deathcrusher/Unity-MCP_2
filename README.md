@@ -18,6 +18,8 @@ The project is designed to let developers to add custom tools soon. After that t
 
 The system is extensible: you can define custom `tool`s directly in your Unity project codebase, exposing new capabilities to the AI or automation clients. This makes Unity-MCP a flexible foundation for building advanced workflows, rapid prototyping, or integrating AI-driven features into your development process.
 
+This repository is a continuation of the original project and includes additional improvements maintained by **Deathcrusher**.
+
 ## AI Tools
 
 <table>
@@ -150,14 +152,21 @@ The system is extensible: you can define custom `tool`s directly in your Unity p
 # Installation
 
 1. [Install .NET 9.0](https://dotnet.microsoft.com/en-us/download)
-2. [Install OpenUPM-CLI](https://github.com/openupm/openupm-cli#installation)
+2. Add the package from this repository using Unity's Package Manager
 
-- Open command line in Unity project folder
-- Run the command
+   - Open the `Package Manager` window in Unity
+   - Click the `+` button and select `Add package from git URL`
+   - Use the URL:
 
-```bash
-openupm add com.ivanmurzak.unity.mcp
-```
+     ```text
+     https://github.com/Deathcrusher/Unity-MCP_2.git?path=Assets/root
+     ```
+
+   Alternatively edit `Packages/manifest.json` and add:
+
+   ```json
+   "com.ivanmurzak.unity.mcp": "https://github.com/Deathcrusher/Unity-MCP_2.git?path=Assets/root"
+   ```
 
 # Usage
 
