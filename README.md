@@ -174,6 +174,12 @@ This repository is a continuation of the original project and includes additiona
    - Click the `+` button and select `Add package from git URL`
    - Use the URL:
 
+2. Add the package from this repository using Unity's Package Manager
+
+   - Open the `Package Manager` window in Unity
+   - Click the `+` button and select `Add package from git URL`
+   - Use the URL:
+
      ```text
      https://github.com/Deathcrusher/Unity-MCP_2.git?path=Assets/root
      ```
