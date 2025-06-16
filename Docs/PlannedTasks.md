@@ -3,7 +3,7 @@
 The following tasks are derived from the TODO / Planned list in the documentation.
 
 - [x] Remove missing components
-- [ ] Run Tests
+ - [x] Run Tests
 - [ ] Prefabs: Create
 - [ ] Package: Get installed
 - [ ] Package: Install
