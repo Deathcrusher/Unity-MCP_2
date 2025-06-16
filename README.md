@@ -152,7 +152,23 @@ This repository is a continuation of the original project and includes additiona
 # Installation
 
 1. [Install .NET 9.0](https://dotnet.microsoft.com/en-us/download)
-2. Add the package from this repository using Unity's Package Manager
+2. Ensure the OpenUPM registry is available so NuGet dependencies resolve
+
+   Add this snippet to `Packages/manifest.json`:
+
+   ```json
+   "scopedRegistries": [
+     {
+       "name": "package.openupm.com",
+       "url": "https://package.openupm.com",
+       "scopes": ["org.nuget"]
+     }
+   ]
+   ```
+
+   Alternatively install [OpenUPM-CLI](https://github.com/openupm/openupm-cli#installation)
+   and run `openupm add com.ivanmurzak.unity.mcp` once in your project folder.
+3. Add the package from this repository using Unity's Package Manager
 
    - Open the `Package Manager` window in Unity
    - Click the `+` button and select `Add package from git URL`
