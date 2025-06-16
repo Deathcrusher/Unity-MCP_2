@@ -134,7 +134,7 @@ The system is extensible: you can define custom `tool`s directly in your Unity p
 
 ### Debug
 
-- 🔲 Read logs (console)
+- ✅ Read logs (console)
 
 ### Component
 
