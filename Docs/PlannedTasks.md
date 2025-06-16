@@ -15,4 +15,4 @@ The following tasks are derived from the TODO / Planned list in the documentatio
 - [ ] Scriptable Object: Read
 - [ ] Scriptable Object: Modify
 - [ ] Scriptable Object: Remove
-- [ ] Debug: Read logs (console)
+- [x] Debug: Read logs (console)
